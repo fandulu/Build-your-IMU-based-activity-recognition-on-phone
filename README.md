@@ -4,3 +4,6 @@ The acceleration data is helpful in activity recognition. A lot of smartphones h
 
 Here, I followed the wonderful tutorial from [Martin](http://pielot.org/tag/randomforest/), using Weka and some scripts to
 make the Fandom Forests class.
+
+I also use the opensource FFT class. However, there are some tricks to setting the FFT shift window, you need to adjust it
+base on your data smapling rate.
