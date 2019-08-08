@@ -7,3 +7,5 @@ make the Fandom Forests class.
 
 I also use the opensource FFT class. However, there are some tricks to setting the FFT shift window, you need to adjust it
 base on your data smapling rate.
+
+You can start the code from the Demo.java file.
