@@ -9,7 +9,8 @@ The acceleration data is helpful in activity recognition. A lot of smartphones h
 # 2.How to use this code
 You can start the code from the Demo.java file by run
 ```
-java Demo.java
+javac Demo.java
+java Demo
 ```
 I have attached the data.csv and label.csv for the Demo.java.
 
