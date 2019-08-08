@@ -2,6 +2,7 @@
 Java FFT and Random Forests implementation for IMU-based activity recognition
 
 The acceleration data is helpful in activity recognition. A lot of smartphones have implemented this kind of function. But, suppose you want to personalize your activity recognition, for instance, different training in the Gym, then you might need to train your model and implement it.
+<img src="https://github.com/fandulu/Build-your-IMU-based-activity-recognition-on-phone/blob/master/data_flow.png" width="500">
 
 
 # 2.How to use this code
