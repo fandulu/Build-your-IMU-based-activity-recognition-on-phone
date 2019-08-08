@@ -83,23 +83,23 @@ public class Demo
 			re[k]= data.get(k+data_start);
 			im[k]=.0;
 		}
-		fft.fft(re,im);
-		for (int j=0; j < columns; j++){	
-			double a =  20*Math.log10(Math.abs(re[j]));
-			int b = (int) a;
-			a = (double) b;
-			features[i][j]= a;
-			String fieldName = "f"+(j+1);
-			try
-			{
-				Field field = rf.getClass().getDeclaredField(fieldName);
-				field.setDouble(rf,a);
-			}catch(Exception e){}
-		}
+	fft.fft(re,im);
+	for (int j=0; j < columns; j++){	
+		double a =  20*Math.log10(Math.abs(re[j]));
+		int b = (int) a;
+		a = (double) b;
+		features[i][j]= a;
+		String fieldName = "f"+(j+1);
+		try
+		{
+			Field field = rf.getClass().getDeclaredField(fieldName);
+			field.setDouble(rf,a);
+		}catch(Exception e){}
+	}
 
-		Prediction p =rf.runClassification();
-		label_prediction.add(p.label);
-		System.out.println(p.label);
+	Prediction p =rf.runClassification();
+	label_prediction.add(p.label);
+	System.out.println(p.label);
 
 	}
 
