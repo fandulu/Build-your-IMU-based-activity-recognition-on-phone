@@ -17,7 +17,7 @@ Notes: it is better to directly use x,y,z, I use magnitude for the simplicity pu
 In label.csv, each value is the corresponding activity state labels at that moment, as 'neutral', 'positive' and 'negetive'.
 You can adapt to more complicated case.
 
-Here, I followed the wonderful tutorial from [Martin](http://pielot.org/tag/randomforest/), using [Weka](https://www.cs.waikato.ac.nz/ml/weka/) and [script](https://github.com/mpielot/androidrf) to train my data and obtain my DetectorRandomForest.java and Prediction.java.
+Here, I followed the wonderful tutorial from [Martin](https://github.com/fandulu/Build-your-IMU-based-activity-recognition-on-phone/blob/master/RandomForest%20%E2%80%93%20Martin's%20Blog.pdf), using [Weka](https://www.cs.waikato.ac.nz/ml/weka/) and [androidrf](https://github.com/fandulu/androidrf) to train my data and obtain my DetectorRandomForest.java and Prediction.java.
 
 Compare with Martin's tutorial, I add FFT.java to obtain FFT features. You can adjust the FFT shift window based on your data sampling rate.
 
