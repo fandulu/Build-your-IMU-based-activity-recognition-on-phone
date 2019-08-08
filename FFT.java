@@ -1,15 +1,4 @@
 
-
-/**
- * Utility class to perform a fast fourier transform without allocating any
- * extra memory.
- *
- * @author Mike Mandel (mim@ee.columbia.edu)
- */
-
-//I removed some unused variables to get rid of warnings
-//Xiaochao
-
 public class FFT {
     
     int n, m;
