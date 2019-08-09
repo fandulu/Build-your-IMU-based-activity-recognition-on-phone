@@ -25,3 +25,7 @@ Here, I followed the wonderful tutorial from [Martin](https://github.com/fandulu
 Compare with Martin's tutorial, I add FFT.java to obtain FFT features. You can adjust the FFT shift window based on your data sampling rate.
 
 After you generate DetectorRandomForest.java and Prediction.java, you can directly copy these files to your project to build the activity recognition app, it is self-contained.
+
+
+# 3. A neural network action recognition you may be interested in
+[Make Skeleton-based Action Recognition Model Smaller, Faster and Better](https://github.com/fandulu/DD-Net/)
